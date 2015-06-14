@@ -1,8 +1,8 @@
 
-if (process.argv.length == 2) {
+if (process.argv.length === 2) {
   spaces(1);
 }
-else if (process.argv.length == 3) {
+else if (process.argv.length === 3) {
 
   var arg = process.argv[2];
 
@@ -14,7 +14,7 @@ else if (process.argv.length == 3) {
   }
 
 }
-else if (process.argv.length == 4) {
+else if (process.argv.length === 4) {
 
   var arg = process.argv[2];
   var arg2 = process.argv[3];

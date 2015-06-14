@@ -12,6 +12,13 @@
   ],
   "author": "Sebastian Lopez",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebastian4/terminalbr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sebastian4/terminalbr/issues"
+  },
   "preferGlobal": "true",
   "bin": {
     "tbr": "tbr.js"
