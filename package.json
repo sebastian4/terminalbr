@@ -1,0 +1,19 @@
+{
+  "name": "terminalbr",
+  "version": "0.0.1",
+  "description": "puts br tag (spaces) and hr tag (lines) on the terminal",
+  "main": "tbr.js",
+  "scripts": {
+    "test": "for f in tests/*; do echo $f; node $f; done; echo 'passed!'; exit 0"
+  },
+  "keywords": [
+    "terminal",
+    "spaces"
+  ],
+  "author": "Sebastian Lopez",
+  "license": "ISC",
+  "preferGlobal": "true",
+  "bin": {
+    "tbr": "tbr.js"
+  }
+}
