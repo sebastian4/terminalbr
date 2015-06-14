@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+
+'use strict';
 
 if (process.argv.length === 2) {
   spaces(1);
@@ -28,7 +31,7 @@ else if (process.argv.length === 4) {
 //////
 
 function spaces(howmany) {
-  str = "";
+  var str = "";
   for (var i=0; i<howmany; i++) {
     str+="\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
   }
@@ -62,7 +65,7 @@ function makeLines(arg, arg2) {
 }
 
 function lines(howmany) {
-  str = "";
+  var str = "";
   for (var i=0; i<howmany; i++) {
     str+="--------------------------------------------------";
   }
